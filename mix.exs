@@ -47,7 +47,7 @@ defmodule Distillery.Mixfile do
     [
       {:artificery, "~> 0.2"},
       {:ex_doc, "~> 0.13", only: [:docs]},
-      {:excoveralls, "~> 0.6", only: [:test]},
+      {:excoveralls, "~> 0.15", only: [:test]},
       {:eqc_ex, "~> 1.4", only: [:test]},
       {:ex_unit_clustered_case, "~> 0.3", only: [:test], runtime: false},
       {:dialyzex, "~> 1.3", only: [:dev], runtime: false}
